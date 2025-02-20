@@ -2,11 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oshi Mark</title>
     <link rel="stylesheet" href="src/output.css">
 </head>
-<body>
-    
+<body class="bg-sky-50 text-gray-700">
+    <div class="flex items-center justify-center h-screen">
+        <div class="flex items-center justify-center bg-sky-100 rounded-md shadow-lg">
+            <img src="img/login/crs-fn.jpg" alt="Ceres Fauna" class="h-[40rem] rounded-tl-md rounded-bl-md">
+            <form action="#" class="p-[3rem] flex flex-col gap-y-[2rem] h-[40rem]">
+                <div class="flex justify-center items-center">
+                    <img src="img/icons/logo.png" alt="Oshi Mark" class="w-[3rem]">
+                </div>
+                <h1 class="text-3xl font-bold">Welcome Back!</h1>
+                <div class="flex flex-col border border-solid rounded-md py-[0.25rem] px-[0.4rem]">
+                    <label for="email" class="text-xs font-medium text-gray-500">Email</label>
+                    <input type="email" name="email" id="email" placeholder="xyz@email.io" class="font-medium text-lg outline-none w-2xs">
+                </div>
+                <div class="flex flex-col border border-solid rounded-md p-[0.25rem]">
+                    <label for="email" class="text-xs font-medium text-gray-500">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Your password" class="font-medium text-lg outline-none w-2xs">
+                </div>
+                <input type="submit" value="Login" class="font-bold bg-pink-200 rounded-3xl py-[1rem]">
+                <div class="flex text-sm"><p class="mr-[0.4rem]">Don't have an account?</p><a href="#" class="font-medium text-pink-700">Sign up!</a></div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
